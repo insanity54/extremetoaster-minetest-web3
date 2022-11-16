@@ -1,0 +1,20 @@
+
+import React from "react";
+import dynamic from "next/dynamic";
+import styles from '../styles/Home.module.css'
+
+
+
+
+import Character from '/components/canvas/Character/Character'
+
+export function Token ({ title, image }) {
+	return (
+		<div className={styles.card}>
+			<h2>{title}</h2>
+			<Canvas><Character image={image}/></Canvas>
+			<img src={image} />
+			<button className="buy-button">BUY NOW</button>
+		</div>
+	)
+}
