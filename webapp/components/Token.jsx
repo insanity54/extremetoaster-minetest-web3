@@ -9,7 +9,7 @@ import { OrbitControls, Stage } from '@react-three/drei'
 import styles from '../styles/Home.module.css'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
-import { Model } from './Model'
+import { Character3 } from './Model'
 
 export default function Token({ title, image, type }) {
   return (
@@ -24,7 +24,7 @@ export default function Token({ title, image, type }) {
 		      		adjustCamera
 		      		contactShadow={false}
 		      	>
-	        		<Model texture={image} />
+	        		<Character3 texture={image} />
 		        </Stage>
 		      </Suspense>
 		      <OrbitControls autoRotate={true} />

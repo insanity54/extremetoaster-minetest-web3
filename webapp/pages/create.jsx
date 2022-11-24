@@ -269,7 +269,7 @@ export default function Create() {
                                     adjustCamera
                                     contactShadow={false}
                                 >
-                                    <Character3 />
+                                    <Character3 texture={imagePreviewUrl} />
                                 </Stage>
                               </Suspense>
                           <OrbitControls autoRotate={true} />
