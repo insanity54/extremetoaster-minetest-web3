@@ -2,6 +2,7 @@ import React from "react";
 import Dom from "/components/layout/Dom";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import Nav from "/components/Nav"
 import styles from '../../styles/Home.module.css'
 
 const Canvas = dynamic(() => import("/components/layout/Canvas"), {
@@ -13,7 +14,7 @@ export default function Layout ({children}) {
   return (
     <>
       <main>
-        <h1>EXTREMETOASTER</h1>
+        <Nav/>
         {children}
       </main>
       <footer className={styles.footer}>

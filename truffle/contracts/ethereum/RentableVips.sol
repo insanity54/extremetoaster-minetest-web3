@@ -21,3 +21,4 @@ contract RentableVips is ERC4907 {
     _burn(tokenId);
   }
 }
+

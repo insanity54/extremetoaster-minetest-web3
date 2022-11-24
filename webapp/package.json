@@ -1,0 +1,41 @@
+{
+  "name": "minetest-extremetoaster-web3-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/error-message": "^2.0.1",
+    "@react-three/drei": "^9.40.0",
+    "@react-three/fiber": "^8.9.1",
+    "@vercel/examples-ui": "^1.0.4",
+    "bulma": "^0.9.4",
+    "bulma-prefers-dark": "^0.1.0-beta.1",
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.2",
+    "ethers": "^5.7.2",
+    "file-saver": "^2.0.5",
+    "glsl-random": "^0.0.5",
+    "glslify-loader": "^2.0.0",
+    "jdenticon": "^3.2.0",
+    "leva": "^0.9.34",
+    "next": "13.0.2",
+    "next-auth": "^4.15.1",
+    "react": "18.2.0",
+    "react-bulma-components": "^4.1.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.5",
+    "react-identicons": "^1.2.5",
+    "sass": "^1.56.1",
+    "three": "^0.146.0",
+    "wagmi": "^0.7.10",
+    "x3dom": "^1.8.1"
+  }
+}

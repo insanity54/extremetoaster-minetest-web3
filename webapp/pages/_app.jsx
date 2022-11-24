@@ -1,8 +1,12 @@
+import 'bulma/css/bulma.min.css';
+import "bulma-prefers-dark/css/bulma-prefers-dark.css";
 import '../styles/globals.css'
 import { SessionProvider } from 'next-auth/react'
 import { WagmiConfig, createClient } from 'wagmi'
 import { getDefaultProvider } from 'ethers'
 import Layout from '/components/layout/Layout'
+
+
 
 function MyApp({ Component, pageProps }) {
   const client = createClient({
